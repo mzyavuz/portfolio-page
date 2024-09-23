@@ -44,8 +44,7 @@ const projectList = [
   },
   {
     title: "My Big Project",
-    description:
-      "Coming soon",
+    description: "Coming soon",
     url: "",
   },
 ];
@@ -58,7 +57,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-in-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>
